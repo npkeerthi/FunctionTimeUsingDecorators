@@ -22,12 +22,9 @@ The time difference = second run - first run
 
 (approx 1 minute)
 
-Given the above information, complete the code exercise by printing out the speed it takes to run the `fast_function()` vs the `slow_function()`. You will need to complete the `speed_calc_decorator()` function.
-
 # Expected Output
 
  ![](https://cdn.fs.teachablecdn.com/RlMWIliS5uAHLA2bB2fh)
 
-HINT: You can use `function.__name__` to get the name of the function,
+NEW: Can use `function.__name__` to get the name of the function,
 
-SOLUTION:  [https://repl.it/@appbrewery/day-54-1-solution](https://repl.it/@appbrewery/day-54-1-solution#main.py)
