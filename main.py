@@ -7,7 +7,8 @@ def speed_calc_decorator(func):
       start=time.time()
       func()
       end=time.time()
-      print(f"Run Time : {end-start}")
+#       print(f"Run Time : {end-start}")
+      print(f"{func.__name__} Run Time is : {end-start}")
     return wrapfunc
 
 @speed_calc_decorator
